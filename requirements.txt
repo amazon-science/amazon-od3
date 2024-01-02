@@ -1,0 +1,11 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
+TTS>=0.21.0
+torch>=2.0
+transformers>=0.26
+accelerate
+openai-whisper
+whisper_normalizer
+nemo-text-processing
+jiwer
