@@ -5,9 +5,11 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 
 OD3 (Open Directed Dialogue Dataset), is designed to allow the community to explore further research into leveraging flawed conversational interactions to improve model performance. OD3 is a collection of 63K conversations (600K turns, 1,172 hours of audio) drawn from existing natural language task-oriented dialog datasets, and augmented with synthetic audio. OD3 is further augmented with turns containing repeats and rephrases of previous failed utterances. This repository contains the data and scripts for the OD3 dataset.
 
+For more details, check out [the paper](https://arxiv.org/abs/2401.02417)!
+
 # Latest News
 
--   [January 16, 2024] OD3 Dataset release!
+-   [January 5, 2024] [OD3 Paper](https://arxiv.org/abs/2401.02417) available on ArXiV!
 
 # Important Links
 
