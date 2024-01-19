@@ -9,7 +9,7 @@ For more details, check out [the paper](https://arxiv.org/abs/2401.02417)!
 
 # Latest News
 
--   [January 16, 2024] Data available for download!
+-   [January 19, 2024] Data available for download!
 -   [January 5, 2024] [OD3 Paper](https://arxiv.org/abs/2401.02417) available on ArXiV!
 
 # Downloading the Dataset and Code
