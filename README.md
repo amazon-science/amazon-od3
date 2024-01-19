@@ -9,11 +9,8 @@ For more details, check out [the paper](https://arxiv.org/abs/2401.02417)!
 
 # Latest News
 
+-   [January 16, 2024] Data available for download!
 -   [January 5, 2024] [OD3 Paper](https://arxiv.org/abs/2401.02417) available on ArXiV!
-
-# Important Links
-
-[Coming Soon]
 
 # Downloading the Dataset and Code
 
@@ -22,7 +19,26 @@ if you'd like to use a different language model than released in the original da
 
 ## Downloading the dataset (v1.0)
 
-[Coming Soon]
+To download/prepare the dataset, first clone this repository, and change into the data directory:
+```bash
+git clone https://github.com/amazon-science/amazon-od3.git
+cd amazon-od3/data/
+```
+Next, download the annotation files:
+```bash
+# Training Annotations (1017MB)
+curl -O https://da4reusta8pbu.cloudfront.net/od3_train.jsonl
+# Validation Annotations (148MB)
+curl -O https://da4reusta8pbu.cloudfront.net/od3_dev.jsonl
+# Test Annotations (192MB)
+curl -O https://da4reusta8pbu.cloudfront.net/od3_test.jsonl
+# Audio Files (94GB)
+curl -O https://da4reusta8pbu.cloudfront.net/audio.tar.gz
+```
+Finally, extract the audio files:
+```bash
+tar -xzvf ./audio.tar.gz
+```
 
 ## Building a new version of the synthetic data
 
